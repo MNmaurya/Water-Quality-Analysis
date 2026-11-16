@@ -1,0 +1,30 @@
+{
+    "project_title": "Explainable AI-Based Water Quality Analysis System",
+    "dataset_records": 683,
+    "target_column": "Water_Quality_Class",
+    "feature_columns": [
+        "State",
+        "Water_Body_Type",
+        "Temp_mean",
+        "DO_mean",
+        "pH_mean",
+        "Cond_mean",
+        "BOD_mean",
+        "Nitrate_mean",
+        "FColi_mean",
+        "TColi_mean",
+        "Temp_range",
+        "DO_range",
+        "pH_range",
+        "BOD_range",
+        "Cond_range"
+    ],
+    "classes": [
+        "Excellent",
+        "Good",
+        "Poor",
+        "Very Poor"
+    ],
+    "selected_model": "Random Forest",
+    "selection_metric": "Macro F1"
+}
